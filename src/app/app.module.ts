@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 //Creados por mi
 import { FormulariosModule } from './formularios/formularios.module';
 import { PaginaPrincipalModule } from './pagina-principal/pagina-principal.module';
+import { MenusModule } from './menus/menus.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PaginaPrincipalModule } from './pagina-principal/pagina-principal.modul
     BrowserModule,
     AppRoutingModule,
     FormulariosModule,
-    PaginaPrincipalModule
+    PaginaPrincipalModule,
+    MenusModule
   ],
   providers: [],
   bootstrap: [AppComponent]
