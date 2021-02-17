@@ -1,0 +1,18 @@
+/* menu desplegable */
+#menu ul ul {
+    display:none;
+    position:absolute;
+    background: #ee6e73;
+    padding:0;
+}
+   
+/* items del menu desplegable */   
+#menu ul ul li {
+    float:none;
+    width:150px
+}
+
+/* items del menu desplegable al pasar el ratón */
+#menu ul li:hover > ul {
+    display:block;
+}
